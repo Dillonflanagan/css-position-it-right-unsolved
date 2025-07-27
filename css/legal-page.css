@@ -10,8 +10,11 @@
   max-width: 900px;
   margin: 0 auto;
 }
-
-main {
+/* 
+working on this area */
+.main {
+  position: sticky;
+  top: 80px;
 }
 
 section {
