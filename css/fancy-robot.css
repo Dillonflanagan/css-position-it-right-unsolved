@@ -23,6 +23,7 @@
     border-style: solid;
     border-color: #07a0f1;
     background-image: linear-gradient(to left, rgb(255, 116, 227), rgb(0, 50, 157));
+   
 }
 
 .robot-eye-left {
@@ -31,6 +32,9 @@
     position: absolute;
     top: 50px;
     left: 50px;
+    background-image: url("https://as1.ftcdn.net/v2/jpg/02/72/68/18/1000_F_272681855_yaxT3ZJGgOo3AHzNEKOfORe5YznybPCP.jpg");
+    background-position: center;
+    background-size: cover;
     background-color: #fff;
     border-radius: 50%;
 
@@ -45,6 +49,7 @@
     right: 50px;
     background-color: #fff;
     border-radius: 50%;
+    opacity: 0.5;
 }
 
 .robot-ear-left {
@@ -109,8 +114,8 @@
     position: absolute;
     top: -50px;
     left: 20px;
-    width: 60px;
-    height: 100px;
+    width: 30%;
+    height: 5rem;
     background-color: #07a0f1;
     border-radius: 50%;
 }
